@@ -24,10 +24,19 @@
         "space-infix-ops": [2, {"int32Hint": false}],
         "strict": [1, "function"]
     },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {"impliedStrict": true}
+    },
     "env": {
-        "browser": true
+      "browser": true,
+      "jquery": true,
+      "node": true,
+      "es6": true
     },
     "globals": {
+        "$": true,
         "django": false
     }
 }
