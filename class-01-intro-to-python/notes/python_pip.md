@@ -2,7 +2,7 @@
 
 ## What is Python?
 
-[General Python FAQ](https://docs.python.org/3/faq/general.html){:target="_blank"}
+[General Python FAQ](https://docs.python.org/3/faq/general.html)
 
 Python is a clear and powerful object-oriented programming language, comparable to Perl, Ruby, Scheme, or Java.
 
@@ -29,7 +29,7 @@ Some programming-language features of Python are:
 - Python's automatic memory management frees you from having to manually allocate and free memory in your code.
 
 #### What's new in Python 3:
-[Review here](https://docs.python.org/3/whatsnew/3.0.html){:target="_blank"}
+[Review here](https://docs.python.org/3/whatsnew/3.0.html)
 
 ## Installing Python
 
@@ -38,7 +38,7 @@ Some programming-language features of Python are:
 Homebrew will take care of the installations for you, and will also lend itself to supporting other installations that we'll make along the way.
 
 **On Linux (Ubuntu) and Windows:**
-- [Python Downloads and Instructions for Installation](https://www.python.org/downloads/){:target="_blank"}
+- [Python Downloads and Instructions for Installation](https://www.python.org/downloads/)
 
 ## Installing PipEnv
 

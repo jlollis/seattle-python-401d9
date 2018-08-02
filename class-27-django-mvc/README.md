@@ -12,7 +12,7 @@
 - Controllers (views)
 - [Views] (templates)
 - Testing
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

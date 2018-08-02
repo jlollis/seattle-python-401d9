@@ -12,10 +12,10 @@
 ## Outline
 
 - Code Review
-- [Modules, Packages, Importing, and Namespaces]{:target="_blank"}
-- [Python Containers and Looping]{:target="_blank"}
-- [Fun with Python Strings]{:target="_blank"}
-- [PyTest and Test-Driven Development]{:target="_blank"}
+- [Modules, Packages, Importing, and Namespaces]
+- [Python Containers and Looping]
+- [Fun with Python Strings]
+- [PyTest and Test-Driven Development]
 
 <!-- links -->
 [Modules, Packages, Importing, and Namespaces]: ./notes/modules.md

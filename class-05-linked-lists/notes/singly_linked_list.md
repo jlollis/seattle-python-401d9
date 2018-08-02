@@ -23,7 +23,7 @@ from the beginning of the linked list.
 
 This is what a Singly Linked List looks like
 
-![Singly Linked List](assets/LinkedList1.PNG){:target="_blank"}
+![Singly Linked List](assets/LinkedList1.PNG)
 
 
 ### Traversal
@@ -100,12 +100,12 @@ Here are the required steps to add a new node with an O(1) efficiency.
 1. Set `current = self.head`. This will guarantee us that we are starting from the very beginning.
 2. We can then instantiate the new node that we are adding. The values passed in as arguments into the `Add()` method
 will define what the value of the Node will be.
-![Singly Linked List](assets/LinkedList2.PNG){:target="_blank"}
+![Singly Linked List](assets/LinkedList2.PNG)
 
 3. `newNode.next` by default is set to `null`. We want to set `newNode.next` property to the same location that the `self.head` node is pointing towards.
 Because `self.head` is just a reference type, we will be assigning it to the same allocation in memory as the node it is pointing too. In this
 case, it's `Node1`.
-![Singly Linked List](assets/LinkedList3.PNG){:target="_blank"}
+![Singly Linked List](assets/LinkedList3.PNG)
 
 
 4. At this point in the program we now "technically" have `newNode` at the beginning of the linked list, but we are not done yet.
@@ -115,7 +115,7 @@ point at `newNode`.
 5. While we are at it, let's just re-assign current as well to make sure should any further operation start at the new true start of the
 linked list.
 
-![Singly Linked List](assets/LinkedList4.PNG){:target="_blank"}
+![Singly Linked List](assets/LinkedList4.PNG)
 
 
 #### Code
@@ -140,12 +140,12 @@ more nodes and must re-allocate to make room for the new node.
 
 1. Let's start out with a basic Singly Linked List:
 
-![Singly Linked List](assets/LLInsert1.PNG){:target="_blank"}
+![Singly Linked List](assets/LLInsert1.PNG)
 
 2. Now let's create a new node (node6). We will set the value of `node6` to be 16. The `Next` will be null
 because we haven't yet attached it into the linked list.
 
-![Singly Linked List](assets/LLInsert2.PNG){:target="_blank"}
+![Singly Linked List](assets/LLInsert2.PNG)
 
 
 3. Now let's start the adding. We can do an `AddBefore` method or an `AddAfter`. For this documentation, we will do
@@ -158,7 +158,7 @@ the next node is not null. Before moving `current` to the next node, we want che
 is equal to the value we are supposed to be watching for (the value of the existing node we are inserting before).
 If it is, we want to set the new node (`node6`).Next equal to the existing node.
 
-![Singly Linked List](assets/LLInsert3.PNG){:target="_blank"}
+![Singly Linked List](assets/LLInsert3.PNG)
 
 The Linked List image above is in the following state:
 1.Current is pointing to `node3`.
@@ -170,11 +170,11 @@ the node is found to prevent setting `node6.Next` to a node that may not exist.
 be a straightforward transaction. We just simply tell `current` (because it is pointing to the same
 memory location as `node3`) to change it's `Next` to point to the new node (`node6`).
 
-![Singly Linked List](assets/LLInsert4.PNG){:target="_blank"}
+![Singly Linked List](assets/LLInsert4.PNG)
 
 And now we have a complete link list with the newly added node exactly where we wanted it.
 
-![Singly Linked List](assets/LLInsert5.PNG){:target="_blank"}
+![Singly Linked List](assets/LLInsert5.PNG)
 
 
 ##### Code

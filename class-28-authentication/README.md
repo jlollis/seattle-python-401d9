@@ -10,7 +10,7 @@
 - CodeReview
 - Django Authentication
 - Django Registration
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

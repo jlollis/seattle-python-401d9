@@ -8,8 +8,8 @@
 
 ## Outline
 - CodeReview
-- [APIs and REST]{:target="_blank"}
-<!-- [Hyperlinks]{:target="_blank"} -->
+- [APIs and REST]
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

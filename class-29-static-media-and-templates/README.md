@@ -12,7 +12,7 @@
 - Templating
 - Filters and Tags
 - Static Assets
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

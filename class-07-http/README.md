@@ -12,7 +12,7 @@
 ## Outline
 
 - Code Review
-- [HTTP Protocol]{:target="_blank"}
+- [HTTP Protocol]
 
 <!-- links -->
 [HTTP Protocol]: ./notes/http.md

@@ -8,9 +8,9 @@
 
 ## Outline
 - CodeReview
-- [Ansible]{:target="_blank"}
+- [Ansible]
 - Scripting Deployment
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

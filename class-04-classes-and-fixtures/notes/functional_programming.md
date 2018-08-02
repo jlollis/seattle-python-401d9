@@ -1,6 +1,6 @@
 # Anonymous Functions and Functional Programming
 
-## Functional Programming [1](https://docs.python.org/3/howto/functional.html#introduction){:target="_blank"}
+## Functional Programming [1](https://docs.python.org/3/howto/functional.html#introduction)
 Programming languages support decomposing problems in several different ways:
 
 - Most programming languages are procedural: programs are lists of instructions that tell the computer what to do with the program’s input. C, Pascal, and even Unix shells are procedural languages.
@@ -25,7 +25,7 @@ Functional design may seem like an odd constraint to work under. Why should you 
 - Ease of debugging and testing.
 
 
-### Iterators [2](https://docs.python.org/3/howto/functional.html#iterators){:target="_blank"}
+### Iterators [2](https://docs.python.org/3/howto/functional.html#iterators)
 An iterator is an object representing a stream of data; this object returns the data one element at a time. A Python iterator must support a method called __next__() that takes no arguments and always returns the next element of the stream. If there are no more elements in the stream, __next__() must raise the StopIteration exception. Iterators don’t have to be finite, though; it’s perfectly reasonable to write an iterator that produces an infinite stream of data.
 
 The built-in iter() function takes an arbitrary object and tries to return an iterator that will return the object’s contents or elements, raising TypeError if the object doesn’t support iteration. Several of Python’s built-in data types support iteration, the most common being lists and dictionaries. An object is called iterable if you can get an iterator for it.
@@ -48,7 +48,7 @@ next(it)
 # StopIteration
 ```
 
-### Generators [3](https://docs.python.org/3/howto/functional.html#generator-expressions-and-list-comprehensions){:target="_blank"}
+### Generators [3](https://docs.python.org/3/howto/functional.html#generator-expressions-and-list-comprehensions)
 List comprehensions and generator expressions (short form: “listcomps” and “genexps”) are a concise notation for such operations, borrowed from the functional programming language Haskell (https://www.haskell.org/). You can strip all the whitespace from a stream of strings with the following code:
 
 ```python
@@ -71,7 +71,7 @@ You can select only certain elements by adding an "if" condition:
 stripped_list = [line.strip() for line in line_list if line != ""]
 ```
 
-## The Lambda Function [4](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions){:target="_blank"}
+## The Lambda Function [4](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
 Small anonymous functions can be created with the `lambda` keyword. This function returns the sum of its two arguments: `lambda a, b: a+b`. Lambda functions can be used wherever function objects are required. They are syntactically restricted to a single expression. Semantically, they are just syntactic sugar for a normal function definition. Like nested function definitions, `lambda` functions can reference variables from the containing scope:
 ```python
 def make_incrementor(n):

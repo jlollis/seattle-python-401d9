@@ -12,7 +12,7 @@
 - DB Relationships
 - Association/Junction Tables
 - Joins and Relationships
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

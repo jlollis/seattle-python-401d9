@@ -8,7 +8,7 @@
 
 ## Outline
 - Code Reiew
-- [Linked Lists]{:target="_blank"}
+- [Linked Lists]
 
 <!-- links -->
 [Linked Lists]: ./notes/singly_linked_list.md

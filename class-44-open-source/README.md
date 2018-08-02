@@ -11,7 +11,7 @@
 - OSS
 - Finding OSS Opportunities
 - Contributing to OSS
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

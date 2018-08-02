@@ -10,7 +10,7 @@
 - CodeReview
 - AWS Review (IAM, Billing, EC2, RDS, etc...)
 - AWS Code Pipeline
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

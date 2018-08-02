@@ -7,8 +7,8 @@
 
 ## Outline
 - Code Review
-- [Stacks]{:target="_blank"}
-- [Queues]{:target="_blank"}
+- [Stacks]
+- [Queues]
 
 <!-- links -->
 [Stacks]: ./notes/stacks_queues.md#what-is-a-stack

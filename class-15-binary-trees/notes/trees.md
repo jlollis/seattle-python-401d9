@@ -18,7 +18,7 @@ and then dive into specifics of the different types.
 1. *Height* - The height of a tree is determined by the number of edges from the root to the bottommost node.
 This is what a tree looks like:
 
-![DepthFirst Traversal](assets/BinaryTree1.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/BinaryTree1.PNG)
 
 
 
@@ -44,7 +44,7 @@ Here are the three different depth first traversals broken down:
    - Left, Right, Root
 
 
-![DepthFirst Traversal](assets/depthTraversal.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/depthTraversal.PNG)
 
 
 Output:
@@ -79,7 +79,7 @@ def pre_order(self, node, operation):
 The first thing we do is look at the root....in our case, we will just ouput that
 to the console. When we call `PreOrder` for the first time, the `root`, NodeA, will be added to the callstack.
 
-![PreOrder1](assets/DepthTraversal1.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal1.PNG)
 
 2. Next we start reading the code from top to bottom. The first line of code reads this:
 
@@ -95,12 +95,12 @@ This means that we will output the `root.value` out to the console.
 If the root does, we will then send the `left_child` to our PreOrder method recursively.
 `NodeB` is now our new root node, and after this call, `NodeB` is pushed onto the callstack.
 
-![PreOrder1](assets/DepthTraversal2.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal2.PNG)
 
 
 4. This process continues until we reach a `Leaf`. When we do hit a leaf, this is the state of our tree:
 
-![PreOrder1](assets/DepthTraversal3.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal3.PNG)
 
 It's important to note a few things that are about to happen.
   - The value of the node will output to the console.
@@ -108,38 +108,38 @@ It's important to note a few things that are about to happen.
   - `nodeD` wil pop off of the callstack and the root will be reassigned back to `NodeB`.
 
 
-![PreOrder1](assets/DepthTraversal4.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal4.PNG)
 
 5. The Code block will now pick up where it left off when we were in the `NodeB` frame.
 Since it already looked for `node.left_child`, it will now look for `node.right_child`.
 
-![PreOrder1](assets/DepthTraversal5.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal5.PNG)
 
 6. `NodeE` will output to the console. Since `NodeE` is a leaf, it will complete the method code
 block, and pop `NodeE` off of the call stack and makes it's way back up to `NodeB`.
-![PreOrder1](assets/DepthTraversal6.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal6.PNG)
 
 7. In the call frame, `NodeB` has already checked for `node.left_child`, and `node.right_child`,
 the code block will complete and pop off `NodeB` from the callstack, and leave `NodeA` as the root.
-![PreOrder1](assets/DepthTraversal7.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal7.PNG)
 
 8. Following the same pattern as we did with the other nodes, `NodeA`'s callstack frame will pick up where it left off, and check out `Node.right_child`.
 `NodeC` will be added to the callstack frame, and it will now be reassigned as the new root.
 
-![PreOrder1](assets/DepthTraversal8.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal8.PNG)
 
 9. `NodeC` will be outputted to the console, and `node.left_child` will be evaluated, and `PreOrder()` will be called sending `node.left_child` as it's root.
 
-![PreOrder1](assets/DepthTraversal9.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal9.PNG)
 
 10. At this point, the program will find taht `NodeF` does not have any children and it will make it's way back up the call stack up to `NodeC`.
 
-![PreOrder1](assets/DepthTraversal10.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal10.PNG)
 
 
 11. NodeC does not have a `node.right_child`, so it will pop off the callstack and return to Node A.
 
-![PreOrder1](assets/DepthTraversal11.PNG){:target="_blank"}
+![PreOrder1](assets/DepthTraversal11.PNG)
 
 
 12. Congratulations! Your PreOrder traversal is completed!
@@ -198,42 +198,42 @@ the process:
 
 1. First, Let's take a look at a tree that we can conduct a Breadth First traversal on:
 
-![DepthFirst Traversal](assets/depthTraversal.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/depthTraversal.PNG)
 
 
 2. Let's start by putting the root Node into the queue (`Queue.enqueue(root)`)
 
-![DepthFirst Traversal](assets/BreadthTraversal2.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/BreadthTraversal2.PNG)
 
 
 3. Now that we have one node in our queue, let's `dequeue`.
 
-![DepthFirst Traversal](assets/BreadthTraversal3.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/BreadthTraversal3.PNG)
 
 
 4. Since we have completed the `dequeue` action on the the root node, we can now `enqueue` both
 it's `root.left_child` and it's `root.right_child`.
 
-![DepthFirst Traversal](assets/BreadthTraversal4.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/BreadthTraversal4.PNG)
 
 4. We will repeat this process  with the next node in the front of the queue.
 
-![DepthFirst Traversal](assets/BreadthTraversal5.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/BreadthTraversal5.PNG)
 
 5. With `NodeB`, we can then `enqueue` the two children node.
 
-![DepthFirst Traversal](assets/BreadthTraversal6.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/BreadthTraversal6.PNG)
 
 6. `dequeue` the front of the queue
-![DepthFirst Traversal](assets/BreadthTraversal7.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/BreadthTraversal7.PNG)
 
 7. `enqueue` the children...
-![DepthFirst Traversal](assets/BreadthTraversal8.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/BreadthTraversal8.PNG)
 
 8. Keep `dequeue`ing, and only `enqueue` if the `node.left_child` or `node.right_child` is not null.
-![DepthFirst Traversal](assets/BreadthTraversal9.PNG){:target="_blank"}
-![DepthFirst Traversal](assets/BreadthTraversal10.PNG){:target="_blank"}
-![DepthFirst Traversal](assets/BreadthTraversal11.PNG){:target="_blank"}
+![DepthFirst Traversal](assets/BreadthTraversal9.PNG)
+![DepthFirst Traversal](assets/BreadthTraversal10.PNG)
+![DepthFirst Traversal](assets/BreadthTraversal11.PNG)
 
 
 Here is the code, utulizing a built in queue, to
@@ -266,7 +266,7 @@ you are not restricted on the node's location.
 
 Here is what a binary tree looks like:
 
-![Binary Tree](assets/BinaryTree2.PNG){:target="_blank"}
+![Binary Tree](assets/BinaryTree2.PNG)
 
 ### Adding a node
 
@@ -292,7 +292,7 @@ and all numbers that are larger than the root are placed to the right.
 
 Here is an example of a Binary Search Tree:
 
-![BST](assets/BST1.PNG){:target="_blank"}
+![BST](assets/BST1.PNG)
 
 ### Searching a BST
 Searching a BST can be done quickly, because all you do is compare the node you are searching for

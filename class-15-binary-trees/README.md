@@ -9,7 +9,7 @@
 ## Outline
 
 - Code Review
-- [Trees]{:target="_blank"}
+- [Trees]
 - Traversals
 
 <!-- links -->

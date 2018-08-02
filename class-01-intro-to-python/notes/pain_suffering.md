@@ -32,7 +32,7 @@ Suffering is pain without purpose.
 Pain with no higher goal.
 Pain with no dreams, no ambition, no aspiration.
 
-> [Suffering is dependent on the story that we layer on top of our pain](http://acleanmind.org/essential-topics/pain-vs-suffering/){:target="_blank"}
+> [Suffering is dependent on the story that we layer on top of our pain](http://acleanmind.org/essential-topics/pain-vs-suffering/)
 
 As you work through feeling the pain of growth over the next 10 weeks, consider heavily the story that you attach to it.
 1. What's your perspective?

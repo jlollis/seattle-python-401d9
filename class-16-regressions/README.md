@@ -13,7 +13,7 @@
 - Regressions
 - Fittings
 - Outliers
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

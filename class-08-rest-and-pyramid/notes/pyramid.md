@@ -1,5 +1,5 @@
 # Python Web Frameworks in the Wild
-Source: [Python Web Frameworks](https://wiki.python.org/moin/WebFrameworks){:target="_blank"}
+Source: [Python Web Frameworks](https://wiki.python.org/moin/WebFrameworks)
 
 ## Frameworks We Teach
 We will be installing and using the following two web frameworks because without them, we’d have to do a lot of stuff ourselves that we may not want to do (or may not be able to do well). Frameworks give you a set of tools to deal with incoming requests, return responses to those requests, interact with a database, create programmable templates for creating web front-ends, etc.
@@ -59,7 +59,7 @@ Save that file and run the following from the command line:
 ```
 Notice how the shell returns nothing. This is a good thing. That means that the server you’ve set up through Pyramid is running and listening for requests.
 
-Finally, open [http://localhost:6543/](http://localhost:6543/){:target="_blank"} in your browser. This will simply connect you to the port that you told Pyramid to listen to, at 6543.
+Finally, open [http://localhost:6543/](http://localhost:6543/)  in your browser. This will simply connect you to the port that you told Pyramid to listen to, at 6543.
 
 This is an almost irresponsibly-simple web application. It proves that the Pyramid framework can handle HTTP requests and generate HTTP responses. We’ll definitely be using Pyramid for significantly more-complex things. You can see that it is easy to get a simple site up and running with Pyramid. For the more complex stuff, it helps to have some structure set up beforehand.
 

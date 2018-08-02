@@ -10,7 +10,7 @@ A Socket is a representation in software of several key components from layers w
 Opening a socket creates the ability for sending and/or receiving of bytes at a given **Endpoint**
 
 ## Sockets in Python
-Python provides a standard built-in module for working with sockets, called `socket`. The module is a wrapper around the system's implementation of [BSD Sockets](https://en.wikipedia.org/wiki/Berkeley_sockets){:target="_blank"}. Below is a brief introduction to working with the `socket` module:
+Python provides a standard built-in module for working with sockets, called `socket`. The module is a wrapper around the system's implementation of [BSD Sockets](https://en.wikipedia.org/wiki/Berkeley_sockets) . Below is a brief introduction to working with the `socket` module:
 ```python
 In [2]: import socket
 # Create a socket by using the `.socket` method provided by the module. It takes three _optional_ arguments: Family, Type, and Proto.

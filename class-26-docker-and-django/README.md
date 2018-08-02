@@ -10,10 +10,10 @@
 
 ## Outline
 - CodeReview
-- [Docker]{:target="_blank"}
-- [Django]{:target="_blank"}
-- [Testing in Django]{:target="_blank"}
-<!-- [Hyperlinks]{:target="_blank"} -->
+- [Docker]
+- [Django]
+- [Testing in Django]
+<!-- [Hyperlinks]  -->
 
 <!-- links -->
 [Docker]: https://docs.docker.com/compose/django/

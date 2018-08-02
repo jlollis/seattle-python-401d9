@@ -4,7 +4,7 @@ NumPy is a spectacular resource for organizing and running fast operations on a 
 As noted, NumPy arrays are not extendable, and every entry in the NumPy array must be of the same data type.
 When reading data, you must always keep a reference to an explanation of the structure of the data available due to having no column names for your data.
 
-The [Pandas](http://pandas.pydata.org/){:target="_blank"} library builds on top of the robustness and efficiency of the NumPy library, while adding data structures and functionality that allow much more natural interaction with your data sets.
+The [Pandas](http://pandas.pydata.org/)  library builds on top of the robustness and efficiency of the NumPy library, while adding data structures and functionality that allow much more natural interaction with your data sets.
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ Let's see some information about them both.
 
 ## Pandas Series
 
-A [Pandas Series](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.html){:target="_blank"} is like a NumPy Array in that it takes one data type and is very fast with broadcasting operations across the data it holds.
+A [Pandas Series](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.html)  is like a NumPy Array in that it takes one data type and is very fast with broadcasting operations across the data it holds.
 It's also of a fixed size, unless you concatenate it with another Series.
 Indeed, many of the built-in capabilities of the Pandas Series seem to take inspiration from NumPy.
 For example:
@@ -30,7 +30,7 @@ For example:
 - `Series.min()` & `Series.max()`
 - `Series.argmin()` & `Series.argmax()`
 - `Series.sum()`
-- `Series.cumsum()` - performs a [cumulative sum](http://mathworld.wolfram.com/CumulativeSum.html){:target="_blank"} across all the values in the series, in order.
+- `Series.cumsum()` - performs a [cumulative sum](http://mathworld.wolfram.com/CumulativeSum.html)  across all the values in the series, in order.
 
 Given a Pandas Series, you can also do comparisons across the entire series and perform boolean filters using bracket notation and bitwise operators.
 
@@ -66,7 +66,7 @@ However, when you're inspecting individual columns in DataFrames, they'll be vis
 ## Pandas DataFrame
 
 The most valuable asset of the Pandas package is the **DataFrame** object.
-Within a [Pandas DataFrame](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html){:target="_blank"}, data is organized as columns and rows.
+Within a [Pandas DataFrame](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html) , data is organized as columns and rows.
 Columns are accessible by name, with either dot notation (`dataframe.column_name`) for single-word names or bracket notation ('dataframe["column_name"]') for those and more complex names.
 The rows are auto-incremented integers by default.
 

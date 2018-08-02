@@ -13,10 +13,10 @@
 ## Outline
 - Kick-off and Introductions
 - Course Overview
-- [Getting Python and PipEnv]{:target="_blank"}
-- [Basic Python Review]{:target="_blank"}
-- [Virtual Environments]{:target="_blank"}
-- [Command-line scripts and user input]{:target="_blank"}
+- [Getting Python and PipEnv]
+- [Basic Python Review]
+- [Virtual Environments]
+- [Command-line scripts and user input]
 
 <!-- links -->
 [Getting Python and PipEnv]: ./notes/python_pip.md
@@ -24,6 +24,6 @@
 [Basic Python Review]: ./notes/syntax.md
 [Command-line scripts and user input]: ./notes/user_input.md
 
-Ensure that you've completed the [401 Python Pre-work](https://github.com/codefellows/code-401-Python-prework){:target="_blank"}.
+Ensure that you've completed the [401 Python Pre-work](https://github.com/codefellows/code-401-Python-prework) .
 
 It's extremely critical that you're set up and ready to go on day 1, and if not you need to **notify your instructor** as soon as possible regarding any of the pre-work that you were unable to complete (including what you were able to complete).

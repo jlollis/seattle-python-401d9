@@ -8,7 +8,7 @@
 
 ## Outline
 - CodeReview
-- [AWS S3]{:target="_blank"}
+- [AWS S3]
 - Boto3
 
 <!-- links -->

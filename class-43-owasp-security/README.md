@@ -10,7 +10,7 @@
 - CodeReview
 - OWASP
 - Django security risks
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

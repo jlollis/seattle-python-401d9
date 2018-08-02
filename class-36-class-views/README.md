@@ -7,9 +7,9 @@
 
 ## Outline
 - CodeReview
-- [First Steps into Class-Based Views in Django]{:target="_blank"}
-- [Deep Dive into Class-Based Views]{:target="_blank"}
-<!-- [Hyperlinks]{:target="_blank"} -->
+- [First Steps into Class-Based Views in Django]
+- [Deep Dive into Class-Based Views]
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

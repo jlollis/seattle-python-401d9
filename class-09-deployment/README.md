@@ -11,7 +11,7 @@
 - Code Review
 - Heroku
 - Travis-CI
-- [Deployment]{:target="_blank"}
+- [Deployment]
 
 <!-- links -->
 [Deployment]: ./notes/deployment.md

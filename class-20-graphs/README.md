@@ -7,8 +7,8 @@
 
 ## Outline
 - CodeReview
-- [Graphs]{:target="_blank"}
-<!-- [Hyperlinks]{:target="_blank"} -->
+- [Graphs]
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

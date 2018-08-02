@@ -10,10 +10,10 @@
 ## Outline
 
 - Code Review
-- [Object-Oriented Programming and Python Classes]{:target="_blank"}
-- [Class Inheritance and Composition]{:target="_blank"}
-- [Anonymous Functions and Functional Programming]{:target="_blank"}
-- [Pytest Fixtures]{:target="_blank"}
+- [Object-Oriented Programming and Python Classes]
+- [Class Inheritance and Composition]
+- [Anonymous Functions and Functional Programming]
+- [Pytest Fixtures]
 
 <!-- links -->
 [Anonymous Functions and Functional Programming]: ./notes/functional_programming.md

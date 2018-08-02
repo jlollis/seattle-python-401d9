@@ -11,7 +11,7 @@
 - SASS/SCSS
 - Django SASS Processor
 - Integration Testing in Django
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

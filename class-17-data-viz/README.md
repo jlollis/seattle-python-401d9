@@ -9,7 +9,7 @@
 ## Outline
 - CodeReview
 - Common Libraries for Viz in Python
-- [Visualizing Data]{:target="_blank"}
+- [Visualizing Data]
 
 <!-- links -->
 [Visualizing Data]: ./notes/visualizing.md

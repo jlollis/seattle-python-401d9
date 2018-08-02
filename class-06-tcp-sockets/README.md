@@ -11,8 +11,8 @@
 ## Outline
 
 - Code Review
-- [TCP/IP]{:target="_blank"}
-- [Sockets]{:target="_blank"}
+- [TCP/IP]
+- [Sockets]
 - Multi-threading in Python
 
 <!-- links -->

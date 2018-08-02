@@ -11,8 +11,8 @@
 ## Outline
 
 - Code Review
-- [Getting Started with Pyramid]{:target="_blank"}
-- [Testing Pyramid]{:target="_blank"}
+- [Getting Started with Pyramid]
+- [Testing Pyramid]
 
 <!-- links -->
 [Getting Started with Pyramid]: ./notes/pyramid.md

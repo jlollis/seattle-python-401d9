@@ -14,7 +14,7 @@
 - JSON Web Tokens
 - Password Management
 - Permissions
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 <!-- links -->
 <!-- [Hyperlinks]: To supporting materials -->

@@ -8,8 +8,8 @@
 
 ## Outline
 - CodeReview
-- [Hash Tables]{:target="_blank"}
-<!-- [Hyperlinks]{:target="_blank"} -->
+- [Hash Tables]
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

@@ -24,7 +24,7 @@ The Internet Protocol Suite is the conceptual model for the protocols used by th
 | Internet | Maintains computer addressing and identification and manages packet routing | IPv4, IPv6, ICMP |
 | Link layer | Used to move packets between two different hosts | MAC, ARP, DSL, Ethernet |
 
-## [TCP](https://www.ietf.org/rfc/rfc793.txt){:target="_blank"}
+## [TCP](https://www.ietf.org/rfc/rfc793.txt)
 The Transmission Control Protocol (TCP) is widely used by application layer protocols in the Internet Protocol Suite. TCP creates connection with two way communication between two hosts and provides reliable, ordered, and error checked byte streams between applications. TCP data transfers manage network congestion and use flow control to limit the rate a sender transfers data to guarantee reliable delivery. Each IP packet between the hosts caries a single TCP Segment. A TCP segment is made up of header and data section.
 
 #### TCP HEADER

@@ -10,9 +10,9 @@
 ## Outline
 
 - Code Review
-- [Python and Jupyter Notebook]{:target="_blank"}
-- [Descriptive Statistics and Numpy]{:target="_blank"}
-- [Working with Pandas]{:target="_blank"}
+- [Python and Jupyter Notebook]
+- [Descriptive Statistics and Numpy]
+- [Working with Pandas]
 
 
 <!-- links -->

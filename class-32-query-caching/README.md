@@ -12,7 +12,7 @@
 - Caching (cache invalidation)
 - Django Memcache
 - Performance testing
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

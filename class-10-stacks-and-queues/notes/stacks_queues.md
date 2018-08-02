@@ -21,7 +21,7 @@ This means that the last item in the stack, will be the first item out.
 
 This is what a stack looks like:
 
-![Singly Linked List](assets/stack1.PNG){:target="_blank"}
+![Singly Linked List](assets/stack1.PNG)
 
 ### Push O(1)
 
@@ -35,18 +35,18 @@ Let's walk through the steps:
 
 1. First, you should have the node that you want to add. Here is an example of a Node that we want to add to the stack.
 
-![Singly Linked List](assets/pushStack1.PNG){:target="_blank"}
+![Singly Linked List](assets/pushStack1.PNG)
 
 2. Next, you need to assign the `Next` property of `Node5` to reference the same Node
 that `Top` is referencing. This will end up being `Node4`
 
-![Singly Linked List](assets/pushStack2.PNG){:target="_blank"}
+![Singly Linked List](assets/pushStack2.PNG)
 
 3. Technically at this point, your new node is added to your stack,
 but there is no indication that it is the first node in the stack.
 To make this happen, you have to re-assign our reference type `Top` to the newly added node, `Node5`.
 
-![Singly Linked List](assets/pushStack3.PNG){:target="_blank"}
+![Singly Linked List](assets/pushStack3.PNG)
 
 4. Congratulations! You completed a successful `Push` of `Node5` onto the stack.
 
@@ -67,28 +67,28 @@ that lives below and the `Top` node is returned to the user.
 
 Let's try and `Pop` off `Node5` from the stack. Here is a visual of the current state of our stack:
 
-![Singly Linked List](assets/popStack1.PNG){:target="_blank"}
+![Singly Linked List](assets/popStack1.PNG)
 
 1. The first step of removing `Node5` from the stack is to create a reference named `Temp` that points to the same node that `Top` points to.
 
-![Singly Linked List](assets/popStack2.PNG){:target="_blank"}
+![Singly Linked List](assets/popStack2.PNG)
 
 2. Once you have created the new reference type, you now need to re-assign `Top`
 to the value that the `Next` property is referencing. In our visual, we can see that the `Next` property is pointing
 to `Node4`. We will re-assign `Top` to be `Node4`.
 
-![Singly Linked List](assets/popStack3.PNG){:target="_blank"}
+![Singly Linked List](assets/popStack3.PNG)
 
 3. We can now remove `Node5` safely without it affecting the rest of the stack. Before we
 do that though you may want to make sure that you clear out the `Next` property in your current `Temp` reference.
 This will ensure that no further references to `Node4` are floating around the heap. This will allow our garbage collector to cleanly
 and safely dispose of the nodes correctly.
 
-![Singly Linked List](assets/popStack4.PNG){:target="_blank"}
+![Singly Linked List](assets/popStack4.PNG)
 
 4. Finally, we return the `Temp` node.
 
-![Singly Linked List](assets/popStack5.PNG){:target="_blank"}
+![Singly Linked List](assets/popStack5.PNG)
 
 Here is the Python code for a `Pop`
 
@@ -134,7 +134,7 @@ Queues follow these concepts:
 
 Here is what a `Queue` looks like:
 
-![Singly Linked List](assets/Queue.PNG){:target="_blank"}
+![Singly Linked List](assets/Queue.PNG)
 
 ### Enqueue O(1)
 When you add an item to a queue, you use the `Enqueue` action. This is done with an O(1) operation in time because
@@ -142,7 +142,7 @@ it does not matter how many other items live in the queue, it takes the same amo
 
 Let's walk through the process of adding a node to a queue:
 
-![Singly Linked List](assets/Enqueue1.PNG){:target="_blank"}
+![Singly Linked List](assets/Enqueue1.PNG)
 
 1. First, we should change the `Next` property of `Node5` to point to the node
 we are adding. In our case with the visual below, we will be re-assigning `Node5.Next` to `Node6`.
@@ -151,13 +151,13 @@ The only way we have access to `Node5` is through our reference type `Rear`. Fol
 this means that we must change `Rear.Next` to `Node6`.
 
 
-![Singly Linked List](assets/Enqueue2.PNG){:target="_blank"}
+![Singly Linked List](assets/Enqueue2.PNG)
 
 2. After we have set the `Next` property, we can re-assign the `Rear` reference to point to `Node6`.
 By doing this, it allows us to keep a reference of where the `Rear` is, and we can continue to `Enqueue`
 nodes into the queue as needed.
 
-![Singly Linked List](assets/Enqueue3.PNG){:target="_blank"}
+![Singly Linked List](assets/Enqueue3.PNG)
 
 3. Congratulations! You have just successfully added a node to a queue by activating the `Enqueue` action.
 
@@ -181,22 +181,22 @@ Let's walk through the process of removing a node from a queue.
 1. The first thing you want to do create a temporary reference type named `Temp` and have it point to the same node
 that `Front` is pointing too. This means that `Temp` will point to `Node1`
 
-![Singly Linked List](assets/Dequeue1.PNG){:target="_blank"}
+![Singly Linked List](assets/Dequeue1.PNG)
 
 2. Next, you want to re-assign `Front` to the `Next` value that the node `Front` is referencing. In our visual, this would
 be `Node2`.
 
-![Singly Linked List](assets/Dequeue2.PNG){:target="_blank"}
+![Singly Linked List](assets/Dequeue2.PNG)
 
 3. Now that we have moved `Front` to the second node in line, we can next re-assign the `Next` property on the `Temp` node to null.
 We do this because we want to make sure that all the proper nodes clear any unnecessary references for the garbage collector to come in
 later and clean up.
 
-![Singly Linked List](assets/Dequeue3.PNG){:target="_blank"}
+![Singly Linked List](assets/Dequeue3.PNG)
 
 4. Congratulations! You have just successfully completed a `Dequeue` action on a queue!
 
-![Singly Linked List](assets/Dequeue4.PNG){:target="_blank"}
+![Singly Linked List](assets/Dequeue4.PNG)
 
 #### Code
 

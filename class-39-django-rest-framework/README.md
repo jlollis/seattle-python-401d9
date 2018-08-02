@@ -6,7 +6,7 @@
 
 ## Outline
 - CodeReview
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

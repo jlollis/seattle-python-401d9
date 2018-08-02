@@ -6,7 +6,7 @@
 
 ## Outline
 - Code Review
-- [Sorting Algorithms]{:target="_blank"}
+- [Sorting Algorithms]
 
 <!-- Links -->
 [Sorting Algorithms]: ./notes/sorts.md

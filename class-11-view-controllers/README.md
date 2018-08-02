@@ -13,7 +13,7 @@
 - Creating Models
 - Serializing Model Data
 - View Controllers
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->

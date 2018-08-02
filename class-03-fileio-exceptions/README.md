@@ -9,9 +9,9 @@
 ## Outline
 
 - Code Review
-- [Errors in Python]{:target="_blank"}
-- [Reading and Writing Files]{:target="_blank"}
-- [Creating Your Own Python Package]{:target="_blank"}
+- [Errors in Python]
+- [Reading and Writing Files]
+- [Creating Your Own Python Package]
 
 <!-- links -->
 [Errors in Python]: ./notes/errors.md

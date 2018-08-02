@@ -5,7 +5,7 @@ The purpose of test fixtures is to provide a fixed baseline upon which tests can
 - Fixtures are implemented in a modular manner, as each fixture name triggers a fixture function which can itself use other fixtures.
 - Fixture management scales from simple unit to complex functional testing, allowing to parameterize fixtures and tests according to configuration and component options, or to re-use fixtures across function, class, module or whole test session scopes.
 
-In addition, `pytest` continues to support classic xunit-style setup. You can mix both styles, moving incrementally from classic to new style, as you prefer. You can also start out from existing unittest.TestCase style or nose based projects.[1](https://docs.pytest.org/en/latest/fixture.html#pytest-fixtures-explicit-modular-scalable){:target="_blank"}
+In addition, `pytest` continues to support classic xunit-style setup. You can mix both styles, moving incrementally from classic to new style, as you prefer. You can also start out from existing unittest.TestCase style or nose based projects.[1](https://docs.pytest.org/en/latest/fixture.html#pytest-fixtures-explicit-modular-scalable)
 
 In short, fixtures allow you to set up dependencies for your test functions to consume, commonly referred to as dependency injection.
 
@@ -35,10 +35,10 @@ Fixture Scope defines how often the fixture should execute and how it interacts 
 - `function` _(default)_: This will run once for each tests that the fixture is passed into.
 
 ## Parametrized Fixtures
-Fixture functions can be parametrized in which case they will be called multiple times, each time executing the set of dependent tests, i. e. the tests that depend on this fixture. Test functions do usually not need to be aware of their re-running. Fixture parametrization helps to write exhaustive functional tests for components which themselves can be configured in multiple ways.[2](https://docs.pytest.org/en/latest/fixture.html#parametrizing-fixtures){:target="_blank"}
+Fixture functions can be parametrized in which case they will be called multiple times, each time executing the set of dependent tests, i. e. the tests that depend on this fixture. Test functions do usually not need to be aware of their re-running. Fixture parametrization helps to write exhaustive functional tests for components which themselves can be configured in multiple ways.[2](https://docs.pytest.org/en/latest/fixture.html#parametrizing-fixtures)
 
 ## `conftest.py`
-If during implementing your tests you realize that you want to use a fixture function from multiple test files you can move it to a `conftest.py` file. You don’t need to import the fixture you want to use in a test, it automatically gets discovered by pytest. The discovery of fixture functions starts at test classes, then test modules, then `conftest.py` files and finally builtin and third party plugins.[3](https://docs.pytest.org/en/latest/fixture.html#conftest-py-sharing-fixture-functions){:target="_blank"}
+If during implementing your tests you realize that you want to use a fixture function from multiple test files you can move it to a `conftest.py` file. You don’t need to import the fixture you want to use in a test, it automatically gets discovered by pytest. The discovery of fixture functions starts at test classes, then test modules, then `conftest.py` files and finally builtin and third party plugins.[3](https://docs.pytest.org/en/latest/fixture.html#conftest-py-sharing-fixture-functions)
 
 Using the example from above, we can now separate the fixture from the tests:
 ```python

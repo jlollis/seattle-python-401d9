@@ -1,12 +1,12 @@
 # Creating Your Own Python Package
 
-It’s important to note that the term “package” in this context is being used as a synonym for a distribution (i.e. a bundle of software to be installed), not to refer to the kind of package that you import in your Python source code (i.e. a container of modules). It is common in the Python community to refer to a distribution using the term “package”. Using the term “distribution” is often not preferred, because it can easily be confused with a Linux distribution, or another larger software distribution like Python itself.[1](https://packaging.python.org/tutorials/installing-packages/){:target="_blank"}
+It’s important to note that the term “package” in this context is being used as a synonym for a distribution (i.e. a bundle of software to be installed), not to refer to the kind of package that you import in your Python source code (i.e. a container of modules). It is common in the Python community to refer to a distribution using the term “package”. Using the term “distribution” is often not preferred, because it can easily be confused with a Linux distribution, or another larger software distribution like Python itself.[1](https://packaging.python.org/tutorials/installing-packages/)
 
 
 ## The Python Package Index
 The Python Package Index is a repository of software for the Python programming language. There are currently almost 130k packages listed under the service.
 
-For additional information on Installation of packages, please refer back to the [PyPi Documentation](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing){:target="_blank"}.
+For additional information on Installation of packages, please refer back to the [PyPi Documentation](https://packaging.python.org/tutorials/installing-packages/#use-pip-for-installing) .
 
 ## Setup.py walk-through
 For a project to be considered a "package" it must be bundled with the appropriate configuration of files and directories which will support the distribution of that project through the PyPi system. The most important file is the `setup.py` file. It's essentially a primary point of configuration and documentation (readable syntax for the PyPi system) for publishing and installing the package.
@@ -17,7 +17,7 @@ For a project to be considered a "package" it must be bundled with the appropria
 It’s the file where various aspects of your project are configured. The primary feature of `setup.py` is that it contains a global `setup()` function. The keyword arguments to this function are how specific details of your project are defined. The most relevant arguments are explained in the section below.
 It’s the command line interface for running various commands that relate to packaging tasks. To get a listing of available commands, `run python setup.py --help-commands`.
 
-[Click here](https://github.com/pypa/sampleproject/blob/master/setup.py){:target="_blank"} for a reference to a fully commented example of a `setup.py` document.
+[Click here](https://github.com/pypa/sampleproject/blob/master/setup.py)  for a reference to a fully commented example of a `setup.py` document.
 
 Below is a simple example of arguments which are configured in a project.
 
@@ -40,7 +40,7 @@ setup(
 )
 ```
 
-For a full list of `setup.py` arguments refer to the [documentation](https://packaging.python.org/tutorials/distributing-packages/#setup-args){:target="_blank"}.
+For a full list of `setup.py` arguments refer to the [documentation](https://packaging.python.org/tutorials/distributing-packages/#setup-args) .
 
 ### `README.md` or `README.rst`
 _Note: rst (reStructuredText) is a common markup language similar to Markdown, and commonly used in association with Python documentation._

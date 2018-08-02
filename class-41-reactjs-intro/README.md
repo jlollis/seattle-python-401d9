@@ -10,7 +10,7 @@
 ## Outline
 - CodeReview
 - ReactJS (create-react-app)
-<!-- [Hyperlinks]{:target="_blank"} -->
+<!-- [Hyperlinks]  -->
 
 
 <!-- links -->
