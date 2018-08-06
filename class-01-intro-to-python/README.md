@@ -1,5 +1,23 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 01: Intro to Python
 
+## Daily Plan
+- Notes:
+    - Anything top of mind? 
+    - Prework - Must be complete.
+
+- 9:00a: Kickoff in Babbage
+- 10:30a: Course Overview 
+    - Content
+    - Slack
+    - Canvas: Assignments, Calendar
+    - Due Dates & Grading 
+    - Code Challenges / Whiteboarding
+- 11:00a: Machine Setup
+    - Virtual Environments, Interpreter, Editor, Terminal
+- 11:30a: Python Command Line Scripts
+- 12:00p: Lab Preview
+    
+
 ## Learning Objectives
 
 - Students will have a version of Python 3.6 or higher on their computers
