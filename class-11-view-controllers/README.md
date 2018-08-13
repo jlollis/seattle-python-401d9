@@ -1,5 +1,7 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 11: View Controllers
 
+## Daily Plan (MCV Web Framework & RESTful APIs)
+
 ## Learning Objectives
 
 - Students will work with the basic patterns of MTV (commonly known as MVC) using a web framework in Python

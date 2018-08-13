@@ -1,5 +1,7 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 16: Regressions
 
+## Daily Plan (Data Sci & ML Intro)
+
 ## Learning Objectives
 
 - Students will have a basic understanding of regression analysis and some of the more commonly used regressions in predictive analysis

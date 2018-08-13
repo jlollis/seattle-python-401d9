@@ -1,5 +1,7 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 36: Class-based Views
 
+## Daily Plan  (Django REST Framework)
+
 ## Learning Objectives
 
 - Students will learn the fundamental differences between function views and class views in Django

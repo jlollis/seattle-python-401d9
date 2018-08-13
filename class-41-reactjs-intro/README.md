@@ -1,5 +1,7 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 41: ReactJS Intro
 
+## Daily Plan  (Front-end, Security, & OSS)
+
 ## Learning Objectives
 
 - Students will understand the difference between client-side and server-side rendered applications

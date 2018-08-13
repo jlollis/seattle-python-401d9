@@ -1,10 +1,12 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 31: SASS/SCSS
 
+## Daily Plan (DevOps)
+
 ## Learning Objectives
 
 - Students will learn how to work with a preprocessed style language syntax in Django
 - Students will learn specifically how to utilize SCSS in their application
-- Students will learn how statis assets are managed within a Django application
+- Students will learn how static assets are managed within a Django application
 
 ## Outline
 - CodeReview

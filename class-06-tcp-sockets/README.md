@@ -1,5 +1,7 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 06: Sockets & TCP
 
+## Daily Plan (The web)
+
 ## Learning Objectives
 
 - Students will learn about the TCP/IP stack and the layers of activity it represents

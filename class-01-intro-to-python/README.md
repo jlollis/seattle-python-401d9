@@ -1,22 +1,22 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 01: Intro to Python
 
-## Daily Plan
+## Daily Plan  (All about the Python this week...)
 - Notes:
     - Anything top of mind? 
-    - Prework - Must be complete.
+    - Pre-work - Must be complete.
 
 - 9:00a: Kickoff in Babbage
 - 10:30a: Course Overview 
-    - Content
+    - Course Content
     - Slack
     - Canvas: Assignments, Calendar
-    - Due Dates & Grading 
+        - Due Dates & Grading 
     - Code Challenges / Whiteboarding
 - 11:00a: Machine Setup
     - Virtual Environments, Interpreter, Editor, Terminal
 - 11:30a: Python Command Line Scripts
-- 12:00p: Lab Preview
-    
+- 12:00p: Whiteboard & Lab Preview
+
 
 ## Learning Objectives
 

@@ -1,5 +1,7 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 26: Docker & Django
 
+## Daily Plan (Get to know Django)
+
 ## Learning Objectives
 
 - Students will learn the basics of working with Docker containers
