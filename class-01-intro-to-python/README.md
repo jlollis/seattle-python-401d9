@@ -6,13 +6,15 @@
     - Pre-work - Must be complete.
 
 - 9:00a: Kickoff in Babbage
-- 10:30a: Course Overview 
+- 10:30: Introductions
+- 10:40a: Course Overview 
     - Course Content
     - Slack
     - Canvas: Assignments, Calendar
         - Due Dates & Grading 
     - Code Challenges / Whiteboarding
 - 11:00a: Machine Setup
+    - **Did anyone set up Anaconda as part of their machine setup?**
     - Virtual Environments, Interpreter, Editor, Terminal
 - 11:30a: Python Command Line Scripts
 - 12:00p: Whiteboard & Lab Preview
