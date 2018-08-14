@@ -1,24 +1,17 @@
+Source: https://github.com/github/gitignore/blob/master/Python.gitignore
 
-# Created by https://www.gitignore.io/api/venv,pydev,python,jupyternotebook
-
-.DS_Store
+# User generated
+ENV/
 .vscode
+.idea
+.DS_Store
 
-### JupyterNotebook ###
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
 
-# Remove previous ipynb_checkpoints
-#   git rm -r .ipynb_checkpoints/
-#
-### pydev ###
-.pydevproject
-
-### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
 
 # C extensions
 *.so
@@ -40,6 +33,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -57,7 +51,6 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
-.pytest_cache/
 nosetests.xml
 coverage.xml
 *.cover
@@ -66,6 +59,12 @@ coverage.xml
 # Translations
 *.mo
 *.pot
+
+# Django stuff:
+*.log
+.static_storage/
+.media/
+local_settings.py
 
 # Flask stuff:
 instance/
@@ -81,12 +80,13 @@ docs/_build/
 target/
 
 # Jupyter Notebook
+.ipynb_checkpoints
 
 # pyenv
 .python-version
 
 # celery beat schedule file
-celerybeat-schedule.*
+celerybeat-schedule
 
 # SageMath parsed files
 *.sage.py
@@ -113,19 +113,5 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-### venv ###
-# Linux
-bin/
-include/
-
-# Window
-Include/
-Lib/
-Scripts/
-
-# Shared
-pyvenv.cfg
-
-
-
-# End of https://www.gitignore.io/api/venv,pydev,python,jupyternotebook
+# data
+curriculum/class-06/API_NY.GDP.PCAP.CD_DS2_en_csv_v2.csv
