@@ -3,6 +3,7 @@
 ## Daily Plan
 - Notes
     - Anything top of mind?
+    - Who's still having computer issues with their dev environment?
     
 - Code Review
 - Handling Exceptions in Python
