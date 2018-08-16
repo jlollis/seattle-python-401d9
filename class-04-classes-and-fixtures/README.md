@@ -1,5 +1,16 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 04: Classes and Fixtures
 
+## Daily Plan
+- Notes:
+    - Anything top of mind?
+    - Catch-up time this weekend (maybe Friday as well)
+
+- Code Review
+- Python Classes / Object Oriented Programming
+- PyTest Fixtures
+- Lambdas & Functional Methods (if time permits) 
+- Lab Preview
+
 ## Learning Objectives
 
 - Students will learn about how to properly use the Python lambda function
