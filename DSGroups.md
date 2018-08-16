@@ -11,21 +11,21 @@ Max| Steph| Nick| Liz
 ## Interview Pairs
 **1**|**2**|**3**|
 :-----:|:-----:|:-----:|
-Jason Burns | Brandon Haynes| 
+Jason Burns| Brandon Haynes| 
 
-Chris Chapman | Madeline Peters| 
+Chris Chapman| Madeline Peters| 
 
-Luther McKiever | Cody Green| 
+Luther McKiever| Cody Green| 
 
-Andrew Baik | Alex Stone| 
+Andrew Baik| Alex Stone| 
 
-Michael Sklepowich | Max McFarland| 
+Michael Sklepowich| Max McFarland| 
 
-Chris Turner | Liz Mahoney| 
+Chris Turner| Liz Mahoney| 
 
-Roman Kireev | Steph Harper|
+Roman Kireev| Steph Harper|
 
-Nicholas Damberg | J Christie | Benjamin Hurst 
+Nicholas Damberg| J Christie| Benjamin Hurst|
 
 
 # Week 2
