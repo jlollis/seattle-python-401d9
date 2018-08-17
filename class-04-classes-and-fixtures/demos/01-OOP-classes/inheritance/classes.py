@@ -2,7 +2,7 @@ class Human:
     height = 0
 
 
-class Person:
+class Person(Human):
     def __init__(self, name, age, children=None):
         self.first_name = name
         self.years_old = age

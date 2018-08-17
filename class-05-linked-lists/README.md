@@ -4,7 +4,10 @@
 - Notes:
     - Anything top of mind?
     - Weekly feedback survey
-    
+    - Why are some of y'all not using linters?
+        - Python is a space-delimited language... you need to use 4-space indentation
+        - Flake8 AND PEP8 linters, please.
+
 - Code Review
 - Abstract Data Structures
 - Linked Lists
