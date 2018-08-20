@@ -1,6 +1,17 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 06: Sockets & TCP
 
 ## Daily Plan (The web)
+- Notes:
+    - Anything top of mind?
+    - Survey feedback
+        - Pace of the class
+        - Workload
+        - Reading assignments
+    
+- Code Review - Linked Lists
+- Sockets - Echo Server
+- TCP - Chat Server
+- Lab Preview
 
 ## Learning Objectives
 
