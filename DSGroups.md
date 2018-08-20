@@ -25,6 +25,10 @@ Max| Steph| Nick| Liz
 ## Groups
 **1**|**2**|**3**|**4**
 :-----:|:-----:|:-----:|:-----:
+| Madeline Peters    | Steph Harper  | Chris Chapman  | Nicholas Damberg |
+| Andrew Baik        | Roman Kireev  | Chris Turner   | Liz Mahoney      |
+| Michael Sklepowich | Max McFarland | Alex Stone     | Jason Burns      |
+| Benjamin Hurst     | J Christie    | Brandon Haynes | Luther McKiever  |
 
 
 ## Interview Pairs
@@ -49,6 +53,7 @@ Max| Steph| Nick| Liz
 ## Groups
 **1**|**2**|**3**|**4**
 :-----:|:-----:|:-----:|:-----:
+
 
 
 ## Interview Pairs
