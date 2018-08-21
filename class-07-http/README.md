@@ -1,5 +1,18 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 07: Protocols & HTTP
 
+- Notes:
+    - Anything top of mind?
+    - Stacks & Queues
+    - Career Coaching (Pitch & Resume Workshop)
+    
+- Code Review
+- Web Request/Response Cycle
+- HTTP Protocol
+- Testing Servers & `conftest.py`
+- Reading source code... lets take a look at Python!
+- Lab Preview
+
+
 ## Learning Objectives
 
 - Students will understand all of the parts and pieces of a URL
