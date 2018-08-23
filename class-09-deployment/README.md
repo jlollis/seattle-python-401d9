@@ -3,6 +3,8 @@
 ## Daily Plan
 - Notes:
     - Anything top of mind?
+    - Stacks & Queues Lab is open / Due Monday at midnight
+    - HTTP Server Code
 
 - Code Review
 - AWS Ecosystem
