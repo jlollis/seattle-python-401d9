@@ -34,11 +34,11 @@ Max| Steph| Nick| Liz
 ## Interview Pairs
 **1**|**2**|
 :-----:|:-----:|
-| Andrew Baik        | Benjamin Hurst       |
+| Andrew Baik        | J Christie       |
 | Michael Sklepowich | Brandon Haynes   |
 | Jason Burns        | Roman Kireev     |
 | Luther McKiever    | Liz Mahoney      |
-| Steph Harper       | J Christie       |
+| Steph Harper       | Ben Hurst       |
 | Chris Chapman      | Chris Turner     |
 | Max McFarland      | Madeline Peters  |
 | Alex Stone     | Nicholas Damberg |
