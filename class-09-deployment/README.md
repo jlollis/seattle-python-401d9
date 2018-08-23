@@ -1,16 +1,25 @@
-# ![cf](http://i.imgur.com/7v5ASc8.png) Class 09: Continuous Integration & Continuous Deployment
+# ![cf](http://i.imgur.com/7v5ASc8.png) Class 09: Deployment
+
+## Daily Plan
+- Notes:
+    - Anything top of mind?
+
+- Code Review
+- AWS Ecosystem
+    - IAM Module (AuthN/AuthZ Security)
+    - EC2 Instances & Configuration
+- AWS Deployment to EC2
+- Lab Preview
 
 ## Learning Objectives
 
 - Students will develop an application that can be viewed in an online hosted environment
-- Students will have an understanding of Continuous Integration and how automation can improve the development process
-- Students will understand how Travis-CI and Heroku can work together to automate the testing and deployment process
+- Students will understand how AWS EC2 can work to support the deployment process
 
 ## Outline
 
 - Code Review
-- Heroku
-- Travis-CI
+- AWS
 - [Deployment]
 
 <!-- links -->

@@ -2,7 +2,7 @@
 
 ### In your Pyramid project
 
-1. Ensure your `setup.py` reflects any additional dependencies installed via `pip` for local development
+1. Ensure your `setup.py` reflects any additional dependencies installed via `pipenv` for local development
 
 ### On AWS
 _You can skip some of these steps if you already have the instances created._
@@ -10,7 +10,7 @@ _You can skip some of these steps if you already have the instances created._
 1. Create a new EC2 instance.
      - Choose the Ubuntu Server 16.04 from the free tier
      - Continue to the the security group settings
-     - Use a security group with access to SSH and HTTP from anywhere (we will tighten these access points later)
+     - Use a security group with access to SSH and HTTP
      - When launching, create a new key pair and download it
      - Launch the instance
 
@@ -67,7 +67,7 @@ _You can skip some of these steps if you already have the instances created._
 
     ```bash
     $ cd src
-    $ pip3 install -e .
+    $ pip3 install -e . --user
     ```
 
     **DO NOT USE SUDO TO PIP INSTALL.**
@@ -193,7 +193,7 @@ _You can skip some of these steps if you already have the instances created._
 
 1. Install `gunicorn` with `pip3`.
     ```bash
-    $ pip3 install gunicorn
+    $ pip3 install gunicorn --user
     ```
 
 1. Create a `gunicorn` configuration file.
@@ -210,7 +210,7 @@ _You can skip some of these steps if you already have the instances created._
     [Service]
     User=ubuntu
     Group=www-data
-    WorkingDirectory=/home/ubuntu/(repo name)/(project name)
+    WorkingDirectory=/home/ubuntu/src
     ExecStart=/home/ubuntu/.local/bin/gunicorn --access-logfile - -w 3 --paste production.ini
 
     [Install]
