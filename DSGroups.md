@@ -47,13 +47,29 @@ Max| Steph| Nick| Liz
 
 # Week 3
 ## Groups
-**1**|**2**|**3**|**4**
-:-----:|:-----:|:-----:|:-----:
+**1**|**2**|
+:-----:|:-----:|
+| Andrew Baik        | Nicholas Damberg |
+| Max McFarland      | Roman Kireev     |
+| Brandon Haynes     | Madeline Peters  |
+| Michael Sklepowich | Luther McKiever  |
+| Benjamin Hurst     | Chris Turner     |
+| Alex Stone         | Jason Burns      |
+| Liz Mahoney        | Steph Harper     |
+| Chris Chapman      | J Christie       |
 
 
 ## Interview Pairs
-**1**|**2**|**3**|
-:-----:|:-----:|:-----:|
+**1**|**2**|
+:-----:|:-----:|
+| Andrew Baik      | Jason Burns        |
+| J Christie       | Brandon Haynes     |
+| Liz Mahoney      | Roman Kireev       |
+| Luther McKieve   | Benjamin Hurst     |
+| Chris Turner     | Madeline Peters    |
+| Chris Chapman    | Michael Sklepowich |
+| Nicholas Damberg | Steph Harper       |
+| Max McFarland    | Alex Stone         |
 
 
 
