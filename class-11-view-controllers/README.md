@@ -1,6 +1,19 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 11: View Controllers
 
 ## Daily Plan (MCV Web Framework & RESTful APIs)
+- Notes:
+    - Anything top of mind?
+    - Survey Feedback
+        - Cold Room
+        - Time-boxing Code Challenges
+        - Scheduling 1:1s
+    - Midterm projects
+    
+- Review Scope of work for Stocks API
+- Creating Models & Setting up the DB
+- (de)serialization 
+- View Controllers
+- Lab Preview
 
 ## Learning Objectives
 
