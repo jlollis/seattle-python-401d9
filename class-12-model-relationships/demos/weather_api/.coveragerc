@@ -1,0 +1,15 @@
+[run]
+branch = True
+
+omit =
+    */models/*
+    */scripts/*
+    */static/*
+    */__init__.py
+
+
+source =
+    */weather_api
+
+[report]
+show_missing = True
