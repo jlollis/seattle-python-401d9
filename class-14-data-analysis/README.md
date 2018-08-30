@@ -1,5 +1,18 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 14: Data Analysis
 
+## Daily Plan
+- Notes
+    - Anything top of mind?
+    - James S. filling in for Kat
+    - Cryptacular on linux? Issues?
+    
+- Code Review
+- Data Science / Analysis: _What is it?_
+    - Review the process
+- DataSci Tooling
+- Finding and Working with Data Sets
+- Lab Preview
+
 ## Learning Objectives
 
 - Students will learn the fundamental process of data analysis
