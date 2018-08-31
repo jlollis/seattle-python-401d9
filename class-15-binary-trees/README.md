@@ -1,5 +1,15 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 15: Binary Trees
 
+## Daily Plan
+- Notes:
+    - Anything top of mind?
+    
+- Code Review
+- (Binary) (Search) Trees
+- Traversals & Search
+- Lab Preview
+
+
 ## Learning Objectives
 - Students will learn the basic construct and constraints of both Binary Trees, and more specifically Binary Search Trees
 - Students will learn two different tree traversal methods; depth-first and breadth-first
