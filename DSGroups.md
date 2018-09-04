@@ -75,8 +75,16 @@ Max| Steph| Nick| Liz
 
 # Week 4
 ## Groups
-**1**|**2**|**3**|**4**
-:-----:|:-----:|:-----:|:-----:
+**1**|**2**|
+:-----:|:-----:|
+| J Christie       | Michael Sklepowich |
+| Steph Harper     | Madeline Peters    |
+| Nicholas Damberg | Roman Kireev       |
+| Luther McKiever  | Andrew Baik        |
+| Max McFarland    | Benjamin Hurst     |
+| Chris Chapman    | Jason Burns        |
+| Alex Stone       | Chris Turner       |
+| Liz Mahoney      | Brandon Haynes     |
 
 
 
