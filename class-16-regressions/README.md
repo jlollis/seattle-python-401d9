@@ -1,6 +1,17 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 16: Regressions
 
 ## Daily Plan (Data Sci & ML Intro)
+- Notes:
+    - Anything top of mind?
+    
+    - Whiteboard walls
+    - Afternoon HVAC work in Babbage
+    
+- Code Review / Recursion
+- Machine Learning
+- Regressions & other models
+- Over/Under-fitting
+- Lab Preview
 
 ## Learning Objectives
 
