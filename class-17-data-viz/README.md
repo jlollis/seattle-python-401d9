@@ -1,5 +1,13 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 17: Data Visualizations
 
+## Daily Plan
+- Notes:
+    - Anything top of mind?
+
+- Code Review?
+- Data Viz
+- Lab Preview
+
 ## Learning Objectives
 
 - Students will learn the fundamentals of displaying data in a visual format
