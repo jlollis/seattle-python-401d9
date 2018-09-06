@@ -89,8 +89,15 @@ Max| Steph| Nick| Liz
 
 
 ## Interview Pairs
-**1**|**2**|**3**|
-:-----:|:-----:|:-----:|
+**1**|**2**|
+:-----:|:-----:|
+| Steph Harper    | Jason Burns        |
+| Chris Turner    | Roman Kireev       |
+| Chris Chapman   | Alex Stone         |
+| Luther McKiever | J Christie         |
+| Liz Mahoney     | Benjamin Hurst     |
+| Max McFarland   | Michael Sklepowich |
+| Madeline Peters | Andrew Baik        |
 
 
 
