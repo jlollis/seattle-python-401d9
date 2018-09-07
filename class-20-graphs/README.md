@@ -22,5 +22,5 @@
 
 
 <!-- links -->
-[Graphs]: ./notes/graphs/md
+[Graphs]: ./notes/graphs.md
 
