@@ -1,15 +1,3 @@
-class Vertice:
-    def __init__(self, value):
-        self.value = value
-        self.vertices = {}
-
-    def __repr__(self):
-        pass
-
-    def __str__(self):
-        pass
-
-
 class Graph:
     def __init__(self):
         self.graph = {}
@@ -26,7 +14,6 @@ class Graph:
     def add_vert(self, val):
         """
         """
-        # use val to create a new Vertice
         # add vertice to self.graph
         # check to see if the vert already exists: if so raise exception
             # create a helper method
