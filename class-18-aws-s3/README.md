@@ -1,5 +1,13 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 18: AWS S3 Uploads
 
+## Daily Plan
+- Notes:
+    - Anything top of mind?
+
+- Testing
+- Deployment
+- Questions
+
 ## Learning Objectives
 
 - Students will understand the usage of Amazon S3 as a static resource storage utility

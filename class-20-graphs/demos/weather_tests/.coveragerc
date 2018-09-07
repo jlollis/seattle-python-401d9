@@ -1,0 +1,5 @@
+[run]
+source = weather_api
+omit =
+    weather_api/test*
+    **/**/initializedb.py
