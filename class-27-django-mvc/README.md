@@ -4,17 +4,17 @@
 
 - Students will learn the fundamentals of building a Django application using the MVC architecture
 - Students will learn how to configure a Django application, creating models, views, and controllers
-- Students will further explore unit testing a Django application
+- Students will understand the fundamentals of how to test a web application using the Django web framework
 
 ## Outline
 - CodeReview
 - Models
 - Controllers (views)
 - [Views] (templates)
-- Testing
+- [Testing in Django]
 <!-- [Hyperlinks]  -->
 
 
 <!-- links -->
 [Views]: ./notes/function_views.md
-
+[Testing in Django]: ./notes/testing.md
