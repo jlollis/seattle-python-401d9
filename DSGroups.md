@@ -103,8 +103,15 @@ Max| Steph| Nick| Liz
 
 # Week 6
 ## Groups
-**1**|**2**|**3**|**4**
-:-----:|:-----:|:-----:|:-----:
+**1**|**2**|**3**|
+:-----:|:-----:|:-----:|
+| J Christie         | Max McFarland    |                 |
+| Michael Sklepowich | Benjamin Hurst   |                 |
+| Chris Turner       | Steph Harper     |                 |
+| Jason Burns        | Liz Mahoney      |                 |
+| Roman Kireev       | Andrew Baik      |                 |
+| Madeline Peters    | Alex Stone       |                 |
+| Chris Chapman      | Nicholas Damberg | Luther McKiever |
 
 
 ## Interview Pairs
