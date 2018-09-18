@@ -1,5 +1,16 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 27: Django MVC
 
+## Daily Plan
+- Notes:
+    - Anything top of mind?
+    
+- Django MVC
+- Templates
+- Views
+- Models
+- Testing
+- Lab Preview
+
 ## Learning Objectives
 
 - Students will learn the fundamentals of building a Django application using the MVC architecture
