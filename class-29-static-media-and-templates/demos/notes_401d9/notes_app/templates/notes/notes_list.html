@@ -1,0 +1,9 @@
+{% extends "base/base.html" %}
+
+{% block content %}
+<div class="notes_list">
+    {% for banana in notes %}
+    <h3><a href="{% url "notes_detail" pk=banana.id %}">{{ banana.title }}({{ banana.status }})</a></h3>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base/base.html" %}
+{% load date_util %}
+
+{% block content %}
+<div class="note_detail">
+    <h3>{{ note.title | upper }}</h3>
+    <p>Created: {{ note.date_created | get_date_string }}.</p>
+    <p>{{ note.date_completed | date:"D" }}</p>
+    <p>{{ note.status | title }}</p>
+    <p>{{ note.description }}</p>
+</div>
+{% endblock %}
