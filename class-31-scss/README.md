@@ -1,6 +1,13 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 31: SASS/SCSS
 
 ## Daily Plan (DevOps)
+- Notes:
+    - Anything top of mind?
+
+- Hash Tables
+- Django Application Scaffolding
+- SASS/SCSS
+- Lab Preview
 
 ## Learning Objectives
 
