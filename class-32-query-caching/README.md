@@ -1,5 +1,15 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 32: Query Caching
 
+## Daily Plan 
+- Notes:
+    - Anything top of mind?
+
+- Code Review
+- Performance
+- Caching & Pagination
+- Loadtest
+- Lab Preview
+
 ## Learning Objectives
 
 - Students will learn the benefits of query caching within a web application
@@ -10,7 +20,7 @@
 ## Outline
 - CodeReview
 - Caching (cache invalidation)
-- Django Memcache
+- Django Redis
 - Performance testing
 <!-- [Hyperlinks]  -->
 

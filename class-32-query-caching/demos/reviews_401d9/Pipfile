@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+"psycopg2-binary" = "*"
+libsass = "*"
+django-compressor = "*"
+django-sass-processor = "*"
+django-redis = "*"
+
+[dev-packages]
+pandas = "*"
+sqlalchemy = "*"
+
+[requires]
+python_version = "3.6"
