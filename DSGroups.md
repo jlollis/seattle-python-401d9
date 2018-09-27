@@ -133,8 +133,16 @@ No groups. Individual whiteboarding.
 
 
 ## Interview Pairs
-**1**|**2**|**3**|
-:-----:|:-----:|:-----:|
+**1**|**2**|
+:-----:|:-----:|
+| J Christie      | Chris Chapman      |
+| Luther McKiever | Roman Kireev       |
+| Alex Stone      | Chris Turner       |
+| TA              | Madeline Peters    |
+| Andrew Baik     | Benjamin Hurst     |
+| Steph Harper    | Nicholas Damberg   |
+| Jason Burns     | Michael Sklepowich |
+| Liz Mahoney     | Max McFarland      |
 
 
 
