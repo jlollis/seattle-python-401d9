@@ -1,5 +1,15 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 33: AWS Deployment Pipeline
 
+## Daily Plan
+- Notes:
+    - Anything top of mind?
+    
+- Code Review
+- Deployment Discussion
+- AWS CodeStar
+- Testing Django
+- Lab Preview
+
 ## Learning Objectives
 
 - Students will learn about the different tools available to developers for enhancing the deployment process within the AWS ecosystem
@@ -8,7 +18,7 @@
 
 ## Outline
 - CodeReview
-- AWS Review (IAM, Billing, EC2, RDS, etc...)
+- AWS Review (IAM, Billing, EC2, RDS, Elasticache...)
 - AWS Code Pipeline
 <!-- [Hyperlinks]  -->
 

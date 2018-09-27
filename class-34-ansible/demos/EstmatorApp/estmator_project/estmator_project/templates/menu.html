@@ -1,0 +1,251 @@
+{% extends "base.html" %}
+
+{% load static from staticfiles %}
+
+{% block extra_foot %}
+<script src="{% static './js/menu.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container" id="est-menu">
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Select An Option</h1>
+        </div>
+    </div><!-- end row -->
+
+    <div class="row">
+        <div class="col-md-4 col-xs-12 text-center">
+            <div class="form-group">
+                <button class="btn btn-lg btn-default btn-block" id="btn_new_quote">New Quote</button>
+            </div>
+            <script>
+                //New Quote Button
+                $('#btn_new_quote').click(function () {
+                    $.ajax({
+                        method: 'GET',
+                        url: "{% url 'quote_form' %}"
+                    }).done(function(response) {
+                        $('#new_quote_form').html(response);
+                        $('#new_quote').modal('toggle');
+                    });
+                });
+            </script>
+            <div class="form-group">
+                <button class="btn btn-lg btn-default btn-block" id="btn_edit_quote">Edit Quote</button>
+            </div>
+            <script>
+                //Edit Quote Button
+                $('#btn_edit_quote').click(function () {
+                    $.ajax({
+                        method: 'GET',
+                        url: "{% url 'client_list_form' %}"
+                    }).done(function(response) {
+                        $('#edit_quote_form_list').html(response).find('select').change(function (e) {
+                            var clientID = e.target.value;
+                            $.ajax({
+                                method: 'GET',
+                                url: "{% url 'quote_edit_form' %}",
+                                data: {pk: clientID}
+                            }).done(function (response) {
+                                $('#edit_quote_form_contents').html(response);
+                            });
+                        });
+                        $('#edit_quote_form_contents :input').attr('disabled', true);
+                        $('#edit_quote').modal('toggle');
+                    });
+                });
+            </script>
+        </div><!-- end quote column -->
+        
+        <div class="col-md-4 col-xs-12 text-center">
+            <div class="form-group">
+                <button class="btn btn-lg btn-default btn-block" id="btn_new_client">New Client</button>
+            </div>
+            <script>
+                //New Client Button
+                $('#btn_new_client').click(function () {
+                    $.ajax({
+                        method: 'GET',
+                        url: "{% url 'client_form' %}"
+                    }).done(function(response) {
+                        $('#new_client_form_contents').html(response);
+                        $('#new_client').modal('toggle');
+                    });
+                });
+            </script>
+            <div class="form-group">
+                <button class="btn btn-lg btn-default btn-block" id="btn_edit_client">Edit Client</button>
+            </div>
+            <script>
+                //Edit Client Button
+                $('#btn_edit_client').click(function () {
+                    $.ajax({
+                        method: 'GET',
+                        url: "{% url 'client_list_form' %}"
+                    }).done(function(response) {
+                        $('#edit_client_form_list').html(response).find('select').change(function (e) {
+                            var clientID = e.target.value;
+                            $.ajax({
+                                method: 'GET',
+                                url: "{% url 'client_edit_form' %}",
+                                data: {pk: clientID}
+                            }).done(function (response) {
+                               $('#edit_client_form_contents').html(response);
+                            });
+                        });
+                        $('#edit_client_form_contents :input').attr('disabled', true);
+                        $('#edit_client').modal('toggle');
+                    });
+                });
+            </script>
+        </div><!-- end client column -->
+        
+        <div class="col-md-4 col-xs-12 text-center">
+            <div class="form-group">
+                <button class="btn btn-lg btn-default btn-block" id="btn_new_company" data-toggle="modal" data-target="#new_company">New Company</button>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-lg btn-default btn-block" id="btn_edit_company">Edit Company</button>
+            </div>
+            <script>
+                //Edit Company Button
+                $('#btn_edit_company').click(function () {
+                    $.ajax({
+                        method: 'GET',
+                        url: "{% url 'company_list_form' %}"
+                    }).done(function(response) {
+                        $('#edit_company_form_list').html(response).find('select').change(function (e) {
+                            var companyID = e.target.value;
+                            $.ajax({
+                                method: 'GET',
+                                url: "{% url 'company_edit_form' %}",
+                                data: {pk: companyID}
+                            }).done(function (response) {
+                               $('#edit_company_form_contents').html(response);
+                            });
+                        });
+                        $('#edit_company_form_contents :input').attr('disabled', true);
+                        $('#edit_company').modal('toggle');
+                    });
+                });
+            </script>
+        </div><!-- end company column -->
+        
+    </div><!-- end row -->
+
+</div> <!-- /container -->
+
+<div class="modal fade" id="new_quote" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">New Quote</h4>
+            </div>
+            <div class="modal-body text-center">
+                <form action="{% url 'quote' %}" method="post">{% csrf_token %}
+                    <div id="new_quote_form"></div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="edit_quote" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Edit Quote</h4>
+            </div>
+            <div class="modal-body text-center">
+                <form id="edit_quote_form" action="{% url 'quote' %}" method="post">{% csrf_token %}
+                    <div id="edit_quote_form_list"></div>
+                    <div id="edit_quote_form_contents"></div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="new_client" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">New Client</h4>
+            </div>
+            <div class="modal-body text-center">
+                <form id="new_client_form" action="{% url 'api_client' %}" method="post">{% csrf_token %}
+                    <div id="new_client_form_contents"></div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="edit_client" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Edit Client</h4>
+            </div>
+            <div class="modal-body text-center">
+                <form id="edit_client_form" action="{% url 'api_client' %}" method="post">{% csrf_token %}
+                    <div id="edit_client_form_list"></div>
+                    <div id="edit_client_form_contents">{{ client_form }}</div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Company modals follow -->
+<div class="modal fade" id="new_company" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">New Company</h4>
+            </div>
+            <div class="modal-body text-center">
+                <form id="new_company_form" action="{% url 'api_company' %}" method="post">{% csrf_token %}<!-- need to add route -->
+                    {{ company_form }}
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="edit_company" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Edit Company</h4>
+            </div>
+            <div class="modal-body text-center">
+                <form id="edit_company_form" action="{% url 'api_company' %}" method="post">{% csrf_token %}<!-- need to add -->
+                    <div id="edit_company_form_list"></div>
+                    <div id="edit_company_form_contents">{{ company_form }}</div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+{% endblock %}
