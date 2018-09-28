@@ -26,11 +26,11 @@
 * [Quicksort](https://en.wikipedia.org/wiki/Quicksort)
 * [Radix Sort](https://en.wikipedia.org/wiki/Radix_sort)
 
-### Insertion Sort
+### Selection Sort
 * **Worst Case Performance:** `O(N^2)`
 * **Average Performance:** `O(N^2)`
 
-Insertion sort is a simple, inefficient algorithm. Basically, it says:
+Selection sort is a simple, inefficient algorithm. Basically, it says:
 
 1. Start at the first index of an array.
 2. Iterate through the whole array to find the smallest value.
