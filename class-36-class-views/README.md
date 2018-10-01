@@ -1,6 +1,14 @@
 # ![cf](http://i.imgur.com/7v5ASc8.png) Class 36: Class-based Views
 
 ## Daily Plan  (Django REST Framework)
+- Notes:
+    - Anything top of mind?
+    
+- Scaffolding a new project!
+- Tests!!
+- Class-based views in Django
+    - cbv vs fbv
+- Lab Preview
 
 ## Learning Objectives
 
