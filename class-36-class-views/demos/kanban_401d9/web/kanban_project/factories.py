@@ -1,6 +1,6 @@
 import factory
 from django.contrib.auth.models import User
-from ..board.models import Card, Category
+from board.models import Card, Category
 
 
 class UserFactory(factory.django.DjangoModelFactory):

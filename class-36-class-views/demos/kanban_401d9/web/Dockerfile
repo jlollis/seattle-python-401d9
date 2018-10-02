@@ -6,8 +6,7 @@ ENV PYTHONUNBUFFERED 1
 RUN mkdir /src
 WORKDIR /src
 
-RUN apt-get update && \
-    apt-get install -y gcc
+RUN apt-get update
 
 COPY . /src
 
