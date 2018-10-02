@@ -4,14 +4,12 @@
 
 - Students will learn how to use their token-based, authenticated requests to interact with their API
 - Students will extend their understanding of Django's View Classes through composed Mixins
-- Students will learn how to construct serialized objects and their relational references using DRF's serializers
-- Students will understand how to utilize DRF's APIRequestFactory for testing their API  
+- Students will learn how to construct object relationships using DRF's serializers
 
 ## Outline
 - Code Review
 - Concrete View Classes 
 - Serialized Relationships
-- Testing DRF APIs
 <!-- [Hyperlinks]
 
 
