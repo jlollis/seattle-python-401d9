@@ -4,7 +4,7 @@
 
 **This is a research assignment which you will present**
 <!-- short description of project -->
-You will be assigned a topic below, which you will research and provide a 10 minute presentation for during the lecture period for class 43. The topic of your research project has been detailed within the 2017 OWASP Securities Report found [here](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf) , though you will need to exand your research area past this report.
+You will be assigned a topic below, which you will research and provide a 10 minute presentation for during the lecture period for class 43. The topic of your research project has been detailed within the 2017 OWASP Securities Report found [here](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf) , though you will need to expand your research area past this report.
 
 1.  A1:2017-Injection
 1.  A2:2017-Broken Authentication

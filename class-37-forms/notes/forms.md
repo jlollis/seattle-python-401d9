@@ -15,7 +15,7 @@ request/response cycle.”
 
 The job of a model in Django is to translate data between python and the
 database. The job of a form in Django is to translate data back and forth
-between python and the request/reponse cycle. A form takes in information that
+between python and the request/response cycle. A form takes in information that
 comes from the request and translates it into pythonic values.
 
 Remember, every time you get information coming in on the request, that
@@ -51,7 +51,7 @@ So how do forms in Django work? A form is just a collection of fields.
 Let’s start up our Django shell:
 
 
-```
+```python
 In [4]: from django import forms
 
 In [5]: class FooForm(forms.Form):
@@ -86,7 +86,7 @@ doesn’t know if it is valid yet, and it has some fields.
 If we just call `str()` on our `form1`, it will render out into raw HTML:
 
 
-```
+```python
 In [11]: str(form1)
 Out[11]: '<tr><th><label for="id_name">Your Name:</label></th><td><input type="text" name="name" maxlength="100" required id="id_name" /></td></tr>\n<tr><th><label for="id_description">Describe Something:</label></th><td><textarea name="description" cols="40" rows="10" maxlength="2048" required id="id_description">\n</textarea></td></tr>'
 ```
@@ -102,7 +102,7 @@ not explicitly:
 The `form1.as_p()` method will render our form with `<p>` tags:
 
 
-```
+```python
 In [12]: form1.as_p()
 Out[12]: u'<p><label for="id_name">Your Name:</label> <input type="text" name="name" maxlength="100" required id="id_name" /></p>\n<p><label for="id_description">Describe Something:</label> <textarea name="description" cols="40" rows="10" maxlength="2048" required id="id_description">\n</textarea></p>'
 ```
@@ -119,20 +119,20 @@ Let’s make another form. We’ll pass in some data as a dictionary, and then t
 form will be bound.
 
 
-```
-In [13]: form2 = FooForm({'name': 'Nick', 'description': 'Instructor for the Python 401 course at Code Fellows'})
+```python
+In [13]: form2 = FooForm({'name': 'Fellow', 'description': 'Instructor for the Python 401 course at Code Fellows'})
 
 In [14]: form2
 Out[14]: <FooForm bound=True, valid=Unknown, fields=(name;description)>
 ```
 
 Now we can use that information to fill out the form with the data that
-exists. Notice the `value="Nick"` attribute:
+exists. Notice the `value="Fellow"` attribute:
 
 
-```
+```python
 In [15]: form2.as_p()
-Out[15]: u'<p><label for="id_name">Your Name:</label> <input type="text" name="name" value="Nick" maxlength="100" required id="id_name" /></p>\n<p><label for="id_description">Describe Something:</label> <textarea name="description" cols="40" rows="10" maxlength="2048" required id="id_description">\nInstructor for the Python 401 course at Code Fellows</textarea></p>'
+Out[15]: u'<p><label for="id_name">Your Name:</label> <input type="text" name="name" value="Fellow" maxlength="100" required id="id_name" /></p>\n<p><label for="id_description">Describe Something:</label> <textarea name="description" cols="40" rows="10" maxlength="2048" required id="id_description">\nInstructor for the Python 401 course at Code Fellows</textarea></p>'
 ```
 
 Forms are also iterators. These objects come out in the order that you specify
@@ -140,11 +140,11 @@ the attributes. If you want to change the ordering of a form, change it in the
 Django form definition.
 
 
-```
+```python
 In [16]: for field in form2:
    ....:     print(field)
    ....:
-<input type="text" name="name" value="Nick" maxlength="100" required id="id_name" />
+<input type="text" name="name" value="Fellow" maxlength="100" required id="id_name" />
 <textarea name="description" cols="40" rows="10" maxlength="2048" required id="id_description">
 Instructor for the Python 401 course at Code Fellows</textarea>
 ```
@@ -153,7 +153,7 @@ If you aren’t happy with the way Django is rendering `<p>` forms or whatever,
 you can address the field properties directly and lay them out how you like:
 
 
-```
+```python
 In [17]: field.id_for_label
 Out[17]: u'id_description'
 
@@ -170,7 +170,7 @@ The `valid` value of a form is also important. When a form is bound, you can
 do validation checks on it.
 
 
-```
+```python
 In [20]:  form2.is_valid()
 Out[20]: True
 ```
@@ -178,11 +178,11 @@ Out[20]: True
 This allows us access to `cleaned_data`:
 
 
-```
+```python
 In [21]: form2.cleaned_data
 Out[21]:
 {'description': 'Instructor for the Python 401 course at Code Fellows',
- 'name': 'Nick'}
+ 'name': 'Fellow'}
 ```
 
 `cleaned_data` is a dictionary of key-value pairs that correspond to the field
@@ -190,11 +190,11 @@ names and the values those fields contain. It is **super important**. Why?
 Because: ` form2` also has a `data` attribute:
 
 
-```
+```python
 In [22]: form2.data
 Out[22]:
 {'description': 'Instructor for the Python 401 course at Code Fellows',
- 'name': 'Nick'}
+ 'name': 'Fellow'}
 ```
 
 It looks the same in this case, but the difference is that `cleaned_data` has
@@ -209,7 +209,7 @@ information.
 Let’s build one that might not be validated.
 
 
-```
+```python
 In [23]: form3 = FooForm({'name': 'My name is reallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreallyreally loooooooong', 'description': ''})
 
 In [24]: form3
@@ -221,7 +221,7 @@ flag will only get decided _after_ a manual check for validity. When we check
 the validity:
 
 
-```
+```python
  In [23]: form3.is_valid()
 Out[23]: False
 
@@ -232,7 +232,7 @@ Out[24]: {}
 This particular form will have an `errors` attribute now:
 
 
-```
+```python
 In [25]: form3.errors
 Out[25]:
 {'description': ['This field is required.'],
@@ -245,7 +245,7 @@ the data as empty because we passed it an empty string as a value.
 You can use the `errors` attribute to send error messages back to your forms.
 
 
-```
+```python
 In [26]: for error_field in form3.errors:
     print("There's a mistake in field '{field}': {problem}".format(
         field=error_field,
@@ -279,7 +279,7 @@ To put a `ModelForm` to use:
     * This informs the form object about some options that you can set for it.
 
 
-```
+```python
 In [27]: from lender_books.models import Book
 
 In [28]: Book
@@ -306,7 +306,7 @@ Book model.
 Let’s grab ourselves an instance of the Book object:
 
 
-```
+```python
 In [33]: Book.objects.all()
 Out[33]: <QuerySet [<Book: Book object>]>
 
@@ -320,7 +320,7 @@ When we create a BookForm, if we want to bind it to an instance, we can use
 the instance keyword argument to instantiate our new BookForm:
 
 
-```
+```python
 In [36]: lovely_form = BookForm(instance=bk1)
 
 In [37]: lovely_form
@@ -337,7 +337,7 @@ model.
 Notice that `lovely_form` is not bound:
 
 
-```
+```python
 In [39]: lovely_form
 Out[39]: <BookForm bound=False, valid=Unknown, fields=(title;author;cover_image;status)>
 ```
@@ -351,7 +351,7 @@ If we make a change, the form will become bound, and the `selected` attribute
 will now be `'bob'` (our user 3 in this case):
 
 
-```
+```python
 In [40]: changed_form = BookForm({'title': 'Malcolm X'}, instance=bk1)
 
 In [41]: changed_form
@@ -372,7 +372,7 @@ doesn’t take priority.
 Is the form valid?
 
 
-```
+```python
 In [43]: changed_form.is_valid()
 Out[43]: False
 
@@ -383,7 +383,7 @@ Out[44]: {'author': ['This field is required.'], 'status': ['This field is requi
 So let’s fix our errors and inspect our book:
 
 
-```
+```python
 In [45]: changed_form = BookForm({"author": "Alex Haley", "status": "available", "title": "Malcolm X"}, instance=bk1)
 
 In [46]: changed_form.is_valid()
@@ -397,7 +397,7 @@ Even though the data provided to the form was valid, nothing changed about the
 book object itself because the form wasn’t saved. Let’s remedy that.
 
 
-```
+```python
 In [48]: changed_form.save()
 Out[48]: <Book: Book object>
 
@@ -429,7 +429,7 @@ you need to create a new model instance or update one, you can pass it
 directly.
 
 
-```
+```python
 updated_book = BookForm(request.post)
 ```
 
@@ -452,7 +452,7 @@ On the other end, you need to make sure you bind your form with not only the
 first dictionary, but also a second containing the file information:
 
 
-```
+```python
 In [50]: changed_form = BookForm({"author": "Alex Haley", "status": "available", "title": "Malcolm X"}}, {'cover_image': <file upload object>}, instance=bk1)
 ```
 
