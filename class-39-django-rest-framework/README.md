@@ -2,11 +2,17 @@
 
 ## Learning Objectives
 
-- Students will working with the Django REST Framework library to further develop a RESTful application in tandem with their Django project
+- Students will learn how to use their token-based, authenticated requests to interact with their API
+- Students will extend their understanding of Django's View Classes through composed Mixins
+- Students will learn how to construct serialized objects and their relational references using DRF's serializers
+- Students will understand how to utilize DRF's APIRequestFactory for testing their API  
 
 ## Outline
-- CodeReview
-<!-- [Hyperlinks]  -->
+- Code Review
+- Concrete View Classes 
+- Serialized Relationships
+- Testing DRF APIs
+<!-- [Hyperlinks]
 
 
 <!-- links -->
