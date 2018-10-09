@@ -8,11 +8,3 @@
 - Students will learn how to make API calls in a ReactJS component
 - Students will learn how to work with ReactJS lifecycle hooks
 
-## Outline
-- CodeReview
-<!-- [Hyperlinks]  -->
-
-
-<!-- links -->
-<!-- [Hyperlinks]: To supporting materials -->
-
